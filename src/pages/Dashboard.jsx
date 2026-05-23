@@ -14,7 +14,7 @@ export default function Dashboard() {
   return (
     <div style={s.root}>
       <nav style={s.nav}>
-        <span style={s.navLogo}>⬡ AuthApp</span>
+        <span style={s.navLogo}>⬡ Celebrare</span>
         <div style={s.navRight}>
           <img src={user?.photo} alt="avatar" style={s.avatar} />
           <span style={s.navName}>{user?.name}</span>
